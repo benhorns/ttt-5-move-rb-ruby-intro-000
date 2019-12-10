@@ -8,4 +8,4 @@ require_relative '../lib/move.rb'
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welcome to Tic Tac Toe!"
 user_input = gets.strip
-user_input.to_ input_to_index
+o
