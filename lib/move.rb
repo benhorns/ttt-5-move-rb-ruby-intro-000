@@ -13,9 +13,6 @@ end
 
 board = [" ", " ", " "]
 
-def update_array_at_with(board, position, player)
-end
-
 def move(board,position,player = 'X')
 board[position] = player
 end
