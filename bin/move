@@ -10,3 +10,4 @@ puts "Welcome to Tic Tac Toe!"
 input = gets.strip
 input_to_index(input)
 move(board,position,player = 'X')
+display_board
