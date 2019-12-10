@@ -12,6 +12,11 @@ def input_to_index(user_input)
 end
 
 def move(board,postion,player)
+  board = [" ", " ", " "]
+  def update_array_at_with(array, index, value)
+    array[index] = value
+  end
 
+  update_array_at_with(board, 0, "X")
 end
 # code your input_to_index and move method here!
